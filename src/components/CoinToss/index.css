@@ -1,0 +1,49 @@
+.container {
+  background: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.toss-card {
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+}
+.toss-img {
+  height: 150px;
+  width: 150px;
+}
+.toss-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.heading {
+  font-weight: bold;
+  color: #a35200;
+  padding-top: 10px;
+}
+.para {
+  font-size: 20px;
+}
+.toss-button {
+  background-color: #f9d423;
+  border-style: none;
+  border-radius: 1rem;
+  padding: 20px;
+  color: #a35200;
+  margin-top: 10px;
+  font-weight: bold;
+}
+p {
+  margin-right: 10px;
+  
+}
